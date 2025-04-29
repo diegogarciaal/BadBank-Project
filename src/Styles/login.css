@@ -1,0 +1,72 @@
+.contenedor-login{
+    display: flex;
+    height: 100%;
+}
+
+.mitad{
+    flex: 1;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-imgane-login{
+    
+    width: 500px;
+    height: 500px;
+}
+
+.imagen-login{
+    background-image: url('../images//login.png');
+    width: 50vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.formulario-login{
+    background-color: #fff
+}
+.contenedor-imgagen-login{
+    display: grid;
+    place-items: center;
+}
+.imagen-dibujo-login{
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/imagen_login.png');
+    background-size: cover;
+    background-position: center center;
+    background-color: #fff;
+    flex: 1;
+    padding: 0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-success-image-login{
+    display: grid;
+    place-items: center;
+}
+
+.imagen-dibujo-success-login{
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/loginsucces.png');
+    background-size: cover;
+    background-position: center center;
+    background-color: #fff;
+    flex: 1;
+    padding: 0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-botones-success-login{
+    display: flex;
+    justify-content: space-between;
+}

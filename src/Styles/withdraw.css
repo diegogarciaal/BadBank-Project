@@ -1,0 +1,11 @@
+.mensaje-retiro-exitoso{
+    color: green;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.mensaje-de-negacion{
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+}

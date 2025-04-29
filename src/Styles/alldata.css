@@ -1,0 +1,30 @@
+.contenedor-tabla-externo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/background_deposit.png');
+    background-size: cover;
+
+}
+
+.contenedor-tabla-externo h2{
+   align-self: center;
+   color: white;
+   font-weight: bold;
+}
+
+.contenedor-tabla-interno{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.tabla{
+    backdrop-filter: blur(4px) !important; /* Ajusta el valor según lo desees */
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Ajusta la transparencia según lo desees */
+    padding: 20px;
+    border-radius: 10px;
+}

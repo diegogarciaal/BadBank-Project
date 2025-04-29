@@ -1,0 +1,38 @@
+.contenedor-deposit{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/background_deposit.png');
+    background-size: cover;
+    max-width: auto;
+    max-height: auto;
+}
+
+.contenedor-balance{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mensaje-de-aprovado{
+    color: green;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.mensaje-de-rechazo{
+    color: red;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.contenedor-deposit{
+    background-color: #06244c;
+}
+
+.form{
+    border: solid 1px grey;
+    
+}
